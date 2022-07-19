@@ -1,0 +1,72 @@
+/*ADD YOUR CUSTOM STYLE*/
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.bg-teal , .btn-teal{
+    background-color: green;
+    
+
+}
+.text-teal{
+    color:#236666 !important ;
+}
+ nav ul{
+    float: right;
+    font-size:30px;
+    height:auto;
+   
+    }
+
+    
+  .img-fluid{
+    border:solid 1px;
+  } 
+
+  .btn btn-teal btn-sm{
+    background-color: blueviolet;
+  }
+
+
+
+  .carousel-control-prev-icon{
+    color:blue;
+    font-size: 15px;
+  }
+ .carousel-control-next-icon{
+    color: blue;
+    font-size: 15px;
+ }
+ 
+
+.carousel   .carousel-indicators li{
+    width:30px;
+    height:5px;
+    border-radius: 0%
+}
+
+.carousel-caption
+{
+    bottom:200px;
+}
+@media(max-width:576px)
+{
+    .carousel-caption{
+        bottom: 20px;
+    }
+}
+.carousel-caption h5{
+    font-size: 30px;
+}
+.carousel-caption p{
+    display: none;
+}
+div img{
+    width:100%;
+}
+
+
+

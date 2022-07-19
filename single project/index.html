@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- Bootstrap css links-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+  <title> Rajini Travel Yari</title>
+ 
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css">
+<!--jquery link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+<!--text animated align -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--bootstrap css files-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+</head>
+<body>
+    
+<!--Main Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-teal">
+        <div clss="container">
+            <a href="index.html" class="navbar-brand">
+            <i class="fas fa-plane"></i>Travel Yari</a>
+            <!--nav box-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#travel-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="travel-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        
+                        <a href="#" class="nav-link"><i class="fa fa-home"></i>Home</a>
+        
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#search" class="nav-link"><i class="fa fa-search"></i>Search</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#places" class="nav-link"><i class="fas fa-archway"></i>Visting spots</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#gallery" class="nav-link"><i class="fas fa-images"></i>Gallery</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#contact" class="nav-link"><i class="fas fa-address-card"></i>contact</a>
+                    </li>
+        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- slider selction-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#travel-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#travel-slider" data-slide-to="1"></li>
+      <li data-target="#travel-slider" data-slide-to="2"></li>
+      <li data-target="#travel-slider" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="pic1.jpg" alt="Chania">
+        <div class="carousel-caption">
+          <h5 class ="display-4">Feel The Joy</h5>
+            <div class="lead text-success">A happy life is just a string of happy moments .but most people don't allow the happy moment,because they're so busy trying to get a happy life.</div>
+            <button class="btn btn-teal">Read More</button>
+        </div>
+      </div>
+  
+      <div class="item">
+        <img src="pic6.jpg" alt="Chicago">
+        <div class="carousel-caption">
+        <h5 class ="display-4 ">Ultimate Destination</h5>
+        <div class="lead text-primary">When we do the best we can, we never know what mirale is wrought in our life or the life of another.</div>
+        <button class="btn btn-teal">Read More</button>
+         
+        </div>
+      </div>
+  
+      <div class="item">
+        <img src="pic16.jpg" alt="New York">
+        <div class="carousel-caption">
+            <h5 class ="display-4">Be Relax in Nature</h5>
+            <div class="lead text-primary">The happiness of your life depends upon the quality of your thoughts</div>
+            <button class="btn btn-teal">Read More</button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="pic3.jpg" alt="New York">
+        <div class="carousel-caption">
+            <h5 class ="display-4">Be Relax in hotels</h5>
+            <div class="lead text-primary">strick to a routine. constant travel travel can take its toll on your daily routine.</div>
+            <button class="btn btn-teal">Read More</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#travel-slider" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#travel-slider" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+
+    <!--search section-->
+    <section id="search" class="p-3 bg-teal text-primary ">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="display-4">Search Your Destination</h5>
+                    <div class="lead">To search the destination. which locaton you have  to search.</div>
+                    <form>
+                        <div class="form-group">
+                            <input type="search" class="form-control" placeholder="paris">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light p-4">
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center m-3">
+                        <div class="card-body">
+                            <i class="fa fa-location-arrow fa-4x text-teal"></i>
+                            <p class="h2"> pick location</p>
+                            <p class="card-text">Most tour operators will,of course, give you a personalized vacation package that will tailor your trip to your budget and location. the tour operator will assit you in curating a travel plan that suits your preferences.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <div class="card-body">
+                            <i class="fa fa-building fa-4x text-teal"></i>
+                            <p class="h2"> Shop Travel</p>
+                            <p class="card-text">shopping tourism is a recent concept that is defined as a contemporary from of tourism carried out by individuals for whom the acqisition of goods, outside their place of residence, is a determining factor in their desition to travel.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <div class="card-body">
+                            <i class="fas fa-bus fa-4x text-teal"></i>
+                            <p class="h2">booking Bus</p>
+                            <p class="card-text">A bus reservation system is a mobile or web software solution designed to provide customers with apersonalized easy-to-utilize user exeperience for boooking and purchasing tickets online.it stores customer's personal data records,scheduled routes,frequent trips,drop point and other information.</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+
+
+        </div>
+
+    </section>
+    <!--popular places-->
+    <section  id="places"class="p-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h5 class="display-4">
+                        <span class="text-primary">Popular</span> Places
+                    </h2>
+                    <p class="lead">A tourist attraction is place of interest that tourist visit.for typically for its inherent,natural,historical significance.so these are the places.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card m-3">
+                        <img src="pic4.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Guntur,Andhra Pradesh</h3>
+                            <p class="card-text">this is the one of the tourist places in villages. and beatiful nature of the environment.you can indluge in exiting activities like trekking,bird watching.simply enjoy the family picnic.</p>
+                            <button class="btn btn-teal btn-sm">Read More</button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <div class="card m-3">
+                        <img src="pic5.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Vijayawada,Andhra Pradesh</h3>
+                            <p class="card-text">Vijayawada is one of the most visted cities in the state.apart from being popular as the global city of future,it has gained popularity amongst tourists as ahistoric town with temples and ancient monuments</p>
+                            <button class="btn btn-teal btn-sm">Read More</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card m-3">
+                        <img src="pic12.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Hyderabad,Telangana</h3>
+                            <p class="card-text">charminar is one one of favourite tourist place.it is so sensitive area and most beatiful are contains special bangles stores for laddies.it contains four minars around it.it is an amazing view from top.</p>
+                            <button class="btn btn-teal btn-sm">Read More</button>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <button class="btn btn-dark btn-lg">
+                        <i class="fa fa-play mr-2"></i>Start Booking
+
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+    <!--scocial icons-->
+    <section class="p-3 bg-teal text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Follow Travel Yari</h1>
+                    <p>These are the many accounts ara their.if you any one account is their.like google, linkedin, twitter etc </p>
+                    <i class="fab fa-facebook-square fa-4x m-3"></i>
+                    <i class="fab fa-youtube fa-4x  m-3"></i>
+                    <i class="fab fa-twitter fa-4x  m-3"></i>
+                    <i class="fab fa-google-plus-square fa-4x  m-3"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- gallery section -->
+    <section id="gallery" class="p-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h5 class="display-4">
+                        <span class="text-success"> Photo</span>Gallery
+
+                    </h5>
+                    <p class="lead">These are the particular place are related to several features of the destination:culture,architecture,infrastructure,landscape,events,shopping etc.these features attract people to the destination and contribute to the overall experience of the trip.to see the below pictures.</p>
+
+
+                </div>
+            </div>
+
+
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img src="pic9.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic10.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic11.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic15.jpg" class="img-fluid" alt="">
+
+                    </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-3 mt-3">
+                        <img src="pic13.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic14.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic8.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic16.jpg" class="img-fluid" alt="">
+
+                    </div>
+                </div>
+
+                 </div>
+
+                 <div class="row mt-4">
+                    <div class="col-md-3 mt-3">
+                        <img src="pic17.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic19.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic21.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <img src="pic20.jpg" class="img-fluid" alt="">
+
+                    </div>
+
+
+        </div>
+
+ </section>
+    <!-- contact section-->
+    <section id="contact" class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mt-3">
+                        <div class="card-body bg-teal text-center text-white">
+                            <i class="fa fa-envelope fa-4x"></i>
+                            <h2>Contact For Booking</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex iste, necessitatibus id ullam vitae sed hic quisquam expedita aut.</p>
+                        </div>
+                    </div>
+                        <ul class="list-group">
+                        <li class="list-group-item">
+                            <h3>Location</h3>
+                        </li>
+                        <li class="list-group-item">
+                             Rajini Travel Yari pvt Ltd.
+                         
+                             <img style="position:absolute; width:35px;"  src="WhatsApp Image 2022-07-04 at 10.32.58 PM.jpeg" class="img-fluid" alt="" >
+                        </li>
+                        
+                        <li class="list-group-item">
+                            Chirala, Prakasam District.
+                        </li>
+                        <li class="list-group-item">
+                            Andhra Pradesh,India.
+                           
+                        </li>
+                    </ul>        
+                </div>
+                <div class="col-md-6">
+                    <div class="card mt-3">
+                        <div class="card-header bg-success text-primary text-center">
+                            <h3>Contact Us</h3>
+                        </div>
+                        <div class="card-body bg-light">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="mobile number">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="loved destination">
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" placeholder="Your Description" ></textarea>
+                                   
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+</section>
+<!-- main footer-->
+
+    <footer class="p-3 mt-3 bg-teal text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>copyright &copy;2022, Rajini Travel Yari pvt Ltd</h3>
+                    <h6>All Rights</h6>
+                    <h6>Developed & Maintain by Nirmaan Organization </h6>
+                    <img style="width: 100px; height: auto;" src="nirmaan.jpg"   class="img-rounded" alt="">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
